@@ -91,7 +91,7 @@ public class Lehoanghiep_LoaihanghoaDao {
         return tenLoaiHangHoa;
     }
     public int getMaLoaiHangHoa(String tenLoaiHangHoa) {
-        String sql = "SELECT maBoPhan FROM '"+database.TABLE_NAME_LOAIHANGHOA+"' where tenLoaiHangHoa = '"+tenLoaiHangHoa+"'";
+        String sql = "SELECT maLoaiHangHoa FROM '"+database.TABLE_NAME_LOAIHANGHOA+"' where tenLoaiHangHoa = '"+tenLoaiHangHoa+"'";
         int maLoaiHangHoa = 0;
         SQLiteDatabase db = database.getReadableDatabase();
         Cursor cursor = db.rawQuery(sql, null);
