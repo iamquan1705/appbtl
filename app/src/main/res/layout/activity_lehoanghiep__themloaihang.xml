@@ -6,11 +6,13 @@
     android:layout_height="match_parent"
     android:orientation="vertical"
     android:gravity="center"
+    android:background="@drawable/background1"
     tools:context="com.lehoanghiep.activity.Lehoanghiep_ActivityThemloaihang">
     <LinearLayout
         android:layout_width="400dp"
         android:layout_height="400dp"
         android:gravity="center"
+        android:background="@drawable/vien"
         android:orientation="vertical">
 
         <TextView
@@ -70,7 +72,7 @@
                 android:id="@+id/btnLoaiHangThem"
                 android:layout_width="150dp"
                 android:layout_height="wrap_content"
-                android:background="#000000"
+                android:background="@drawable/background_button2"
                 android:text="Thêm"
                 android:textColor="#ffffff"
                 />
@@ -78,7 +80,7 @@
                 android:id="@+id/btnThoatLoaiHangThem"
                 android:layout_marginLeft="20dp"
                 android:text="Thoát"
-                android:background="#000000"
+                android:background="@drawable/background_button2"
                 android:layout_width="150dp"
                 android:textColor="#ffffff"
                 android:layout_height="wrap_content"

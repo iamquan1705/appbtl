@@ -55,8 +55,8 @@ public class Lehoanghiep_LoaihanghoaAdapter extends BaseAdapter {
         }
 
         Lehoanghiep_Loaihanghoa bp = LHHList.get(position);
-        viewHolder.tvTenLoaiHangItem.setText("Loại hàng hóa : " +bp.getTenLoaiHangHoa());
-        viewHolder.tvGhiChuItem.setText("Ghi chú: " + bp.getGhiChu());
+        viewHolder.tvTenLoaiHangItem.setText("Loại:" +bp.getTenLoaiHangHoa());
+        viewHolder.tvGhiChuItem.setText("Ghi chú:" + bp.getGhiChu());
         return convertView;
     }
     class  ViewHolder{

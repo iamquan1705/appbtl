@@ -13,7 +13,6 @@ import java.util.List;
 
 public class Lehoanghiep_HanghoaDao {
     private Lehoanghiep_Database database;
-
     public Lehoanghiep_HanghoaDao(Context context) {
         database = new Lehoanghiep_Database(context);
     }

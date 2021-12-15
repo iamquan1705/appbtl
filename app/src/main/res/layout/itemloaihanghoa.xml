@@ -4,15 +4,20 @@
     xmlns:app="http://schemas.android.com/apk/res-auto"
     xmlns:tools="http://schemas.android.com/tools"
     android:layout_width="match_parent"
-    android:layout_height="80dp">
+    android:layout_height="80dp"
+    android:background="@drawable/background_item"
+    android:paddingRight="10dp"
+    >
     <ImageView
         android:id="@+id/imageView"
         android:layout_width="70dp"
         android:layout_height="70dp"
-        android:src="@drawable/ic_launcher_background"
+        android:src="@drawable/merchandise"
+        android:layout_marginLeft="20dp"
         app:layout_constraintBottom_toBottomOf="parent"
         app:layout_constraintStart_toStartOf="parent"
-        app:layout_constraintTop_toTopOf="parent" />
+        app:layout_constraintTop_toTopOf="parent"
+        />
 
     <TextView
         android:id="@+id/tvTenLoaiHangItem"
@@ -20,6 +25,7 @@
         android:layout_height="wrap_content"
         android:text="Tên Bộ Phận:"
         android:textAllCaps="true"
+        android:textColor="#ffffff"
         android:textSize="17dp"
         android:layout_marginTop="5dp"
         android:textStyle="bold"
@@ -29,11 +35,13 @@
 
     <TextView
         android:id="@+id/tvGhiChuItem"
-        android:layout_width="wrap_content"
+        android:layout_width="match_parent"
         android:layout_height="wrap_content"
-        android:text="Ghi chú:"
+        android:text="Ghi chú:Đây là loại mặt hàng chuyên dùng cho tiêu dùng hằng ngày"
         android:textAllCaps="true"
+        android:layout_marginLeft="110dp"
         android:textSize="17dp"
+        android:textColor="#ffffff"
         android:layout_marginTop="5dp"
         android:textStyle="bold"
         app:layout_constraintLeft_toLeftOf="@id/tvTenLoaiHangItem"

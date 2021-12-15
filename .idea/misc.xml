@@ -3,9 +3,32 @@
   <component name="DesignSurface">
     <option name="filePathToZoomLevelMap">
       <map>
+        <entry key="..\:/Users/ECO0697-QUANNH/Desktop/appbtl/app/src/main/res/drawable/background.xml" value="0.3828125" />
+        <entry key="..\:/Users/ECO0697-QUANNH/Desktop/appbtl/app/src/main/res/drawable/background_button.xml" value="0.3828125" />
+        <entry key="..\:/Users/ECO0697-QUANNH/Desktop/appbtl/app/src/main/res/drawable/background_button2.xml" value="0.30520833333333336" />
+        <entry key="..\:/Users/ECO0697-QUANNH/Desktop/appbtl/app/src/main/res/drawable/background_button3.xml" value="0.30520833333333336" />
+        <entry key="..\:/Users/ECO0697-QUANNH/Desktop/appbtl/app/src/main/res/drawable/background_dialog.xml" value="0.30520833333333336" />
+        <entry key="..\:/Users/ECO0697-QUANNH/Desktop/appbtl/app/src/main/res/drawable/background_item.xml" value="0.3828125" />
+        <entry key="..\:/Users/ECO0697-QUANNH/Desktop/appbtl/app/src/main/res/drawable/background_item2.xml" value="0.30520833333333336" />
+        <entry key="..\:/Users/ECO0697-QUANNH/Desktop/appbtl/app/src/main/res/drawable/background_listview.xml" value="0.3828125" />
+        <entry key="..\:/Users/ECO0697-QUANNH/Desktop/appbtl/app/src/main/res/drawable/background_textview.xml" value="0.3828125" />
+        <entry key="..\:/Users/ECO0697-QUANNH/Desktop/appbtl/app/src/main/res/drawable/ic_launcher_background.xml" value="0.3828125" />
+        <entry key="..\:/Users/ECO0697-QUANNH/Desktop/appbtl/app/src/main/res/drawable/vien.xml" value="0.30520833333333336" />
+        <entry key="..\:/Users/ECO0697-QUANNH/Desktop/appbtl/app/src/main/res/drawable/vien2.xml" value="0.30520833333333336" />
         <entry key="..\:/Users/ECO0697-QUANNH/Desktop/appbtl/app/src/main/res/layout/activity_lehoanghiep__hanghoa.xml" value="0.2890625" />
+        <entry key="..\:/Users/ECO0697-QUANNH/Desktop/appbtl/app/src/main/res/layout/activity_lehoanghiep__loaihang.xml" value="0.36666666666666664" />
+        <entry key="..\:/Users/ECO0697-QUANNH/Desktop/appbtl/app/src/main/res/layout/activity_lehoanghiep__suahanghoa.xml" value="0.33" />
+        <entry key="..\:/Users/ECO0697-QUANNH/Desktop/appbtl/app/src/main/res/layout/activity_lehoanghiep__sualoaihang.xml" value="0.2890625" />
         <entry key="..\:/Users/ECO0697-QUANNH/Desktop/appbtl/app/src/main/res/layout/activity_lehoanghiep__themhanghoa.xml" value="0.2890625" />
+        <entry key="..\:/Users/ECO0697-QUANNH/Desktop/appbtl/app/src/main/res/layout/activity_lehoanghiep__themloaihang.xml" value="0.2890625" />
+        <entry key="..\:/Users/ECO0697-QUANNH/Desktop/appbtl/app/src/main/res/layout/activity_lehoanghiep_toanbohanghoa.xml" value="0.2890625" />
+        <entry key="..\:/Users/ECO0697-QUANNH/Desktop/appbtl/app/src/main/res/layout/activity_main.xml" value="0.33" />
+        <entry key="..\:/Users/ECO0697-QUANNH/Desktop/appbtl/app/src/main/res/layout/background_button2.xml" value="0.2890625" />
+        <entry key="..\:/Users/ECO0697-QUANNH/Desktop/appbtl/app/src/main/res/layout/dialog_xoahanghoa.xml" value="0.2890625" />
+        <entry key="..\:/Users/ECO0697-QUANNH/Desktop/appbtl/app/src/main/res/layout/dialog_xoaloaihanghoa.xml" value="0.2890625" />
         <entry key="..\:/Users/ECO0697-QUANNH/Desktop/appbtl/app/src/main/res/layout/itemhanghoa.xml" value="0.2890625" />
+        <entry key="..\:/Users/ECO0697-QUANNH/Desktop/appbtl/app/src/main/res/layout/itemloaihanghoa.xml" value="0.36666666666666664" />
+        <entry key="..\:/Users/ECO0697-QUANNH/Desktop/appbtl/app/src/main/res/menu/context_menu.xml" value="0.2890625" />
       </map>
     </option>
   </component>

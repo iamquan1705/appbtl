@@ -4,16 +4,71 @@
     xmlns:tools="http://schemas.android.com/tools"
     android:layout_width="match_parent"
     android:layout_height="match_parent"
+    android:background="@drawable/background1"
     tools:context=".MainActivity">
 
-    <Button
-        android:id="@+id/btnStartLoaiHang"
-        android:layout_width="wrap_content"
-        android:layout_height="wrap_content"
-        android:text="Loại hàng hóa!"
-        app:layout_constraintBottom_toBottomOf="parent"
-        app:layout_constraintLeft_toLeftOf="parent"
-        app:layout_constraintRight_toRightOf="parent"
-        app:layout_constraintTop_toTopOf="parent" />
+        <TextView
+            android:layout_width="300dp"
+            android:layout_height="50dp"
+            android:background="@drawable/background_textview"
+            android:fontFamily="sans-serif"
+            android:gravity="center"
+            android:text="QUẢN LÝ HÀNG HÓA"
+            android:textColor="#ffffff"
+            android:textSize="30dp"
+            android:textStyle="bold"
+            app:layout_constraintBottom_toTopOf="@+id/llLoaiHang"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toTopOf="parent" />
 
+        <LinearLayout
+            android:id="@+id/llLoaiHang"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:orientation="horizontal"
+            app:layout_constraintBottom_toBottomOf="parent"
+            app:layout_constraintLeft_toLeftOf="parent"
+            app:layout_constraintRight_toRightOf="parent"
+            app:layout_constraintTop_toTopOf="parent">
+
+            <ImageView
+                android:layout_width="80dp"
+                android:layout_height="80dp"
+                android:background="@drawable/background_button"
+                android:padding="15dp"
+                android:src="@drawable/merchandise" />
+
+            <android.widget.Button
+                android:id="@+id/btnStartLoaiHang"
+                android:layout_width="150dp"
+                android:layout_height="80dp"
+                android:layout_marginBottom="30dp"
+                android:background="@drawable/background_button"
+                android:text="Bấm để vào \n loại hàng hóa " />
+        </LinearLayout>
+
+        <LinearLayout
+            android:id="@+id/llToanBoHang"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:orientation="horizontal"
+            app:layout_constraintLeft_toLeftOf="parent"
+            app:layout_constraintRight_toRightOf="parent"
+            app:layout_constraintTop_toBottomOf="@+id/llLoaiHang">
+
+            <ImageView
+                android:layout_width="80dp"
+                android:layout_height="80dp"
+                android:background="@drawable/background_button"
+                android:padding="15dp"
+                android:src="@drawable/box" />
+
+            <android.widget.Button
+                android:id="@+id/btnStartHangHoa"
+                android:layout_width="150dp"
+                android:layout_height="80dp"
+                android:background="@drawable/background_button"
+                android:text="Bấm để vào \n toàn bộ hàng hóa" />
+        </LinearLayout>
 </androidx.constraintlayout.widget.ConstraintLayout>

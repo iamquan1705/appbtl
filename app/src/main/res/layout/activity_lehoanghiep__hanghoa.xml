@@ -5,24 +5,33 @@
     android:layout_width="match_parent"
     android:layout_height="match_parent"
     android:orientation="vertical"
+    android:background="@drawable/background1"
     tools:context="com.lehoanghiep.activity.Lehoanghiep_ActivityHanghoa">
     <TextView
         android:id="@+id/tvTieuDeHangHoa"
         android:textSize="20dp"
         android:textStyle="bold"
         android:gravity="center"
+        android:textColor="#AC0B0B"
         android:text="Danh sách Hàng hóa"
+        android:background="@drawable/background_textview"
+        android:layout_marginHorizontal="20dp"
         android:layout_width="match_parent"
-        android:layout_height="30dp"/>
+        android:layout_height="60dp"/>
 
-<!--    <SearchView-->
-<!--        android:id="@+id/svHangHoa"-->
-<!--        android:layout_width="match_parent"-->
-<!--        android:layout_marginTop="20dp"-->
-<!--        android:layout_height="50dp"-->
-<!--        />-->
+    <androidx.appcompat.widget.SearchView
+        android:id="@+id/svHangHoa"
+        android:layout_width="match_parent"
+        android:layout_height="50dp"
+        app:iconifiedByDefault="false"
+        android:layout_marginHorizontal="20dp"
+        android:background="@drawable/background_textview"
+        />
     <ListView
         android:id="@+id/lvHangHoa"
         android:layout_width="match_parent"
-        android:layout_height="match_parent"/>
+        android:layout_height="match_parent"
+        android:layout_marginHorizontal="20dp"
+        android:background="@drawable/background_textview"
+        />
 </LinearLayout>
